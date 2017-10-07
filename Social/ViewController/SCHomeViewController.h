@@ -1,18 +1,16 @@
 //
-//  AppDelegate.h
+//  SCHomeViewController.h
 //  Social
 //
 //  Created by Sicong Chen on 9/30/17.
 //  Copyright © 2017 Sicong Chen. All rights reserved.
 //
-
-
-
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@class SCPost;
 
-@property (strong, nonatomic) UIWindow *window;
-
+@interface SCHomeViewController : UIViewController
 
 @end
+

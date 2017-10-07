@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD2C6FDA1F818D1300AB99DC /* SCLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2C6FD91F818D1300AB99DC /* SCLocationManager.m */; };
+		DD2C6FDE1F81A41300AB99DC /* SCExploreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2C6FDC1F81A41300AB99DC /* SCExploreViewController.m */; };
+		DD2C6FDF1F81A41300AB99DC /* SCExploreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD2C6FDD1F81A41300AB99DC /* SCExploreViewController.xib */; };
 		DDDACE8D1F7F6C8B0063828A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDACE8C1F7F6C8B0063828A /* AppDelegate.m */; };
-		DDDACE901F7F6C8B0063828A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDACE8F1F7F6C8B0063828A /* ViewController.m */; };
-		DDDACE931F7F6C8B0063828A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDDACE911F7F6C8B0063828A /* Main.storyboard */; };
 		DDDACE951F7F6C8B0063828A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDDACE941F7F6C8B0063828A /* Assets.xcassets */; };
 		DDDACE981F7F6C8B0063828A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDDACE961F7F6C8B0063828A /* LaunchScreen.storyboard */; };
 		DDDACE9B1F7F6C8B0063828A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDACE9A1F7F6C8B0063828A /* main.m */; };
 		DDDACEA51F7F6C8C0063828A /* SocialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDACEA41F7F6C8C0063828A /* SocialTests.m */; };
 		DDDACEB01F7F6C8C0063828A /* SocialUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDACEAF1F7F6C8C0063828A /* SocialUITests.m */; };
+		DDDACEC01F7F6D250063828A /* SCPost.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDACEBF1F7F6D250063828A /* SCPost.m */; };
+		DDDACECA1F7F6F9B0063828A /* SCUser.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDACEC91F7F6F9B0063828A /* SCUser.m */; };
+		DDDACECE1F7F703C0063828A /* SCTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDACECD1F7F703C0063828A /* SCTabBarController.m */; };
+		DDDACED21F8053C60063828A /* SCHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDACED01F8053C60063828A /* SCHomeViewController.m */; };
+		DDDACED31F8053C60063828A /* SCHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDDACED11F8053C60063828A /* SCHomeViewController.xib */; };
+		DDDACED81F8056A70063828A /* SCHomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDACED61F8056A70063828A /* SCHomeTableViewCell.m */; };
+		DDDACED91F8056A70063828A /* SCHomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDDACED71F8056A70063828A /* SCHomeTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD2C6FD81F818D1300AB99DC /* SCLocationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SCLocationManager.h; path = Manager/SCLocationManager.h; sourceTree = "<group>"; };
+		DD2C6FD91F818D1300AB99DC /* SCLocationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SCLocationManager.m; path = Manager/SCLocationManager.m; sourceTree = "<group>"; };
+		DD2C6FDB1F81A41300AB99DC /* SCExploreViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCExploreViewController.h; sourceTree = "<group>"; };
+		DD2C6FDC1F81A41300AB99DC /* SCExploreViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCExploreViewController.m; sourceTree = "<group>"; };
+		DD2C6FDD1F81A41300AB99DC /* SCExploreViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SCExploreViewController.xib; sourceTree = "<group>"; };
 		DDDACE881F7F6C8B0063828A /* Social.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Social.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDDACE8B1F7F6C8B0063828A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DDDACE8C1F7F6C8B0063828A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DDDACE8E1F7F6C8B0063828A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DDDACE8F1F7F6C8B0063828A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		DDDACE921F7F6C8B0063828A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DDDACE941F7F6C8B0063828A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDDACE971F7F6C8B0063828A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDDACE991F7F6C8B0063828A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +61,18 @@
 		DDDACEAB1F7F6C8C0063828A /* SocialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDDACEAF1F7F6C8C0063828A /* SocialUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocialUITests.m; sourceTree = "<group>"; };
 		DDDACEB11F7F6C8C0063828A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDDACEBE1F7F6D250063828A /* SCPost.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SCPost.h; path = Model/SCPost.h; sourceTree = "<group>"; };
+		DDDACEBF1F7F6D250063828A /* SCPost.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SCPost.m; path = Model/SCPost.m; sourceTree = "<group>"; };
+		DDDACEC81F7F6F9B0063828A /* SCUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SCUser.h; path = Model/SCUser.h; sourceTree = "<group>"; };
+		DDDACEC91F7F6F9B0063828A /* SCUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SCUser.m; path = Model/SCUser.m; sourceTree = "<group>"; };
+		DDDACECC1F7F703C0063828A /* SCTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SCTabBarController.h; path = ViewController/SCTabBarController.h; sourceTree = "<group>"; };
+		DDDACECD1F7F703C0063828A /* SCTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SCTabBarController.m; path = ViewController/SCTabBarController.m; sourceTree = "<group>"; };
+		DDDACECF1F8053C60063828A /* SCHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCHomeViewController.h; sourceTree = "<group>"; };
+		DDDACED01F8053C60063828A /* SCHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCHomeViewController.m; sourceTree = "<group>"; };
+		DDDACED11F8053C60063828A /* SCHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SCHomeViewController.xib; sourceTree = "<group>"; };
+		DDDACED51F8056A70063828A /* SCHomeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SCHomeTableViewCell.h; path = View/SCHomeTableViewCell.h; sourceTree = "<group>"; };
+		DDDACED61F8056A70063828A /* SCHomeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SCHomeTableViewCell.m; path = View/SCHomeTableViewCell.m; sourceTree = "<group>"; };
+		DDDACED71F8056A70063828A /* SCHomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SCHomeTableViewCell.xib; path = View/SCHomeTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +100,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DD2C6FD71F818CCC00AB99DC /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				DD2C6FD81F818D1300AB99DC /* SCLocationManager.h */,
+				DD2C6FD91F818D1300AB99DC /* SCLocationManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
 		DDDACE7F1F7F6C8B0063828A = {
 			isa = PBXGroup;
 			children = (
@@ -101,11 +132,12 @@
 		DDDACE8A1F7F6C8B0063828A /* Social */ = {
 			isa = PBXGroup;
 			children = (
+				DD2C6FD71F818CCC00AB99DC /* Manager */,
+				DDDACED41F80563E0063828A /* View */,
+				DDDACECB1F7F6FD90063828A /* ViewController */,
+				DDDACEBD1F7F6CBA0063828A /* Model */,
 				DDDACE8B1F7F6C8B0063828A /* AppDelegate.h */,
 				DDDACE8C1F7F6C8B0063828A /* AppDelegate.m */,
-				DDDACE8E1F7F6C8B0063828A /* ViewController.h */,
-				DDDACE8F1F7F6C8B0063828A /* ViewController.m */,
-				DDDACE911F7F6C8B0063828A /* Main.storyboard */,
 				DDDACE941F7F6C8B0063828A /* Assets.xcassets */,
 				DDDACE961F7F6C8B0063828A /* LaunchScreen.storyboard */,
 				DDDACE991F7F6C8B0063828A /* Info.plist */,
@@ -130,6 +162,42 @@
 				DDDACEB11F7F6C8C0063828A /* Info.plist */,
 			);
 			path = SocialUITests;
+			sourceTree = "<group>";
+		};
+		DDDACEBD1F7F6CBA0063828A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DDDACEBE1F7F6D250063828A /* SCPost.h */,
+				DDDACEBF1F7F6D250063828A /* SCPost.m */,
+				DDDACEC81F7F6F9B0063828A /* SCUser.h */,
+				DDDACEC91F7F6F9B0063828A /* SCUser.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DDDACECB1F7F6FD90063828A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DDDACECC1F7F703C0063828A /* SCTabBarController.h */,
+				DDDACECD1F7F703C0063828A /* SCTabBarController.m */,
+				DDDACECF1F8053C60063828A /* SCHomeViewController.h */,
+				DDDACED01F8053C60063828A /* SCHomeViewController.m */,
+				DDDACED11F8053C60063828A /* SCHomeViewController.xib */,
+				DD2C6FDB1F81A41300AB99DC /* SCExploreViewController.h */,
+				DD2C6FDC1F81A41300AB99DC /* SCExploreViewController.m */,
+				DD2C6FDD1F81A41300AB99DC /* SCExploreViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		DDDACED41F80563E0063828A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DDDACED51F8056A70063828A /* SCHomeTableViewCell.h */,
+				DDDACED61F8056A70063828A /* SCHomeTableViewCell.m */,
+				DDDACED71F8056A70063828A /* SCHomeTableViewCell.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,9 +306,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD2C6FDF1F81A41300AB99DC /* SCExploreViewController.xib in Resources */,
+				DDDACED31F8053C60063828A /* SCHomeViewController.xib in Resources */,
 				DDDACE981F7F6C8B0063828A /* LaunchScreen.storyboard in Resources */,
+				DDDACED91F8056A70063828A /* SCHomeTableViewCell.xib in Resources */,
 				DDDACE951F7F6C8B0063828A /* Assets.xcassets in Resources */,
-				DDDACE931F7F6C8B0063828A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,9 +335,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDDACE901F7F6C8B0063828A /* ViewController.m in Sources */,
+				DDDACED81F8056A70063828A /* SCHomeTableViewCell.m in Sources */,
+				DDDACECE1F7F703C0063828A /* SCTabBarController.m in Sources */,
+				DD2C6FDE1F81A41300AB99DC /* SCExploreViewController.m in Sources */,
+				DDDACECA1F7F6F9B0063828A /* SCUser.m in Sources */,
 				DDDACE9B1F7F6C8B0063828A /* main.m in Sources */,
 				DDDACE8D1F7F6C8B0063828A /* AppDelegate.m in Sources */,
+				DDDACEC01F7F6D250063828A /* SCPost.m in Sources */,
+				DD2C6FDA1F818D1300AB99DC /* SCLocationManager.m in Sources */,
+				DDDACED21F8053C60063828A /* SCHomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,14 +379,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DDDACE911F7F6C8B0063828A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DDDACE921F7F6C8B0063828A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DDDACE961F7F6C8B0063828A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
